@@ -1,0 +1,142 @@
+
+.navbar{
+    padding: 0 !important;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 5px -6px black;
+}
+.logo{
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 16px;
+}
+.section{
+    background-color: #F9FAFB;
+    height: 100vh;
+    font-family: "HelveticaNeue", 
+               
+}
+.home-header{
+    margin-left: 94px;
+    padding-top: 67px;
+    font-family: "HelveticaNeue";
+}
+.heading{
+    font-size: 44px;
+    font-weight: 900;
+    color: #000000;
+    margin-bottom: 73px;
+    font-family: "HelveticaNeue"
+}
+
+.sub-heading{
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    font-weight: bold;
+    color: #192024;
+    margin-bottom: 23px;
+}
+
+.filter-heading{
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    font-weight: normal;
+    color: #192024;
+    margin-bottom: 23px;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+}
+.filter-option{
+    margin-left: 10px;
+    margin-right: 24px;
+}
+.card-row{
+    margin-right: 94px !important;
+    margin-top: 56px;
+    
+}
+.card-col{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.card {
+  min-width: 300px;
+  min-height: 240px;
+  box-shadow: 0 -1px 4px 0 rgba(25,32,36,0.04),0 3px 6px 0 rgba(25,32,36,0.16);
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: solid 1px #363f45;
+  margin-bottom: 16px;
+  margin-left: 16px !important;
+  position: relative;
+  padding-right: 8px;
+
+}
+.card-logo{
+    width: 48px;
+    height: 48px;
+    margin-right: 18px;
+    margin-top: 96px;
+    margin-left: 42px;
+    text-align: center;
+    
+}
+.name{
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    font-weight: bold;
+    color:#192024;
+    line-height: 20px;
+    margin-left: 110px;
+    margin-top: -36px;
+}
+.alience{
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    font-weight: normal;
+    color:#192024;
+    line-height: 2px;
+}
+.info{
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    font-weight: normal;
+    color:#5a6872;
+    line-height: 16px;
+}
+.site-info{
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    font-weight: normal;
+    color:#5a6872;
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+   margin-right: 20px;
+ 
+}
+#DivForHoverItem{
+ display: none;
+ margin-left: 110px;
+ margin-top: -10px;
+}
+
+.card:hover #DivForHoverItem {
+    display: inline-block;
+    margin-top: 4px;   
+}
+.card:hover .name {
+   margin-top: -68px; 
+}
+
+@media (max-width: 575.98px) {
+    .filter-heading{
+        flex-direction: column;
+    }
+ }
+
+
